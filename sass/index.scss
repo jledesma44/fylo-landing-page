@@ -1,0 +1,13 @@
+//Place project styles here! These will override the neubaki styles---
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap');
+
+$primary: hsl(243, 87%, 12%);
+$secondary: hsl(238, 22%, 44%);
+$accent-1: hsl(224, 93%, 58%);
+$accent-2: hsl(170, 45%, 43%);
+
+$primary-ff: 'Raleway', sans-serif;
+$secondary-ff: 'Open sans', sans-serif;
+
+@import 'neubaki';

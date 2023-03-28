@@ -1,0 +1,71 @@
+// theme colors-----------------------
+$primary: #326dee !default;
+$secondary: #1ac886 !default;
+$accent-1: #c8a51a !default;
+$accent-2: #ee32d2 !default;
+$error: #d32752 !default;
+$info: #f6c31c !default;
+// Neutral colors---------------------
+
+$neutral-200: hsl(0, 0%, 90%) !default;
+$neutral-300: hsl(0, 0%, 80%) !default;
+$neutral-400: hsl(0, 0%, 60%) !default;
+$neutral-500: hsl(0, 0%, 40%) !default;
+$neutral-600: hsl(0, 0%, 30%) !default;
+$neutral-700: hsl(0, 0%, 20%) !default;
+$neutral-800: hsl(0, 0%, 10%) !default;
+
+// color palette----------------------
+
+$colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "accent-1": $accent-1,
+  "accent-2": $accent-2,
+  "neutral-200": $neutral-200,
+  "neutral-300": $neutral-300,
+  "neutral-400": $neutral-400,
+  "neutral-500": $neutral-500,
+  "neutral-600": $neutral-600,
+  "neutral-700": $neutral-700,
+  "neutral-800": $neutral-800,
+  "error": $error,
+  "info": $info,
+  "blue": #1919e6,
+  "red": #e61919,
+  "yellow": #e6e619,
+  "green": #19e635,
+  "orange": #ffa600,
+  "purple": #9900ff,
+  "gray": #808080,
+  "black": black,
+  "white": white,
+) !default;
+
+// spacing---------------------------
+
+$base-padding: 0.75rem !default; // 12px
+$base-margin: 0.75rem !default; // 12px
+
+// borders-----------------------------
+
+$base-border-thickness: 1px !default;
+$base-border-radius: 20px !default;
+
+// box-shadow--------------------------
+
+$base-box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1) !default;
+
+// font sizes----------------------------
+
+$base-font-size: 1rem !default; //    16px
+$font-size-xs: $base-font-size * 0.75 !default; // 12px
+$font-size-sm: $base-font-size * 0.875 !default; // 14px
+$font-size-lg: $base-font-size * 1.5 !default; // 24px
+$font-size-xl: $base-font-size * 2 !default; // 32px
+$font-size-xxl: $base-font-size * 3 !default; // 48px
+
+// font family-------------------------
+
+$primary-ff: "Poppins", sans-serif !default;
+$secondary-ff: "Open sans", sans-serif !default;
